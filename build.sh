@@ -1,0 +1,1 @@
+docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app rust:latest cargo build --release
